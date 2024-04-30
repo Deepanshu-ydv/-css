@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .boxe{
+            height: 75px;
+            width: 75px;
+            background-color: aquamarine;
+        }
+        @media screen and (min-width:300px) {
+            .boxe{
+                background-color: brown;
+                height: 150px;
+                width: 150px;
+            }
+            
+        }
+        .boxe2{
+            
+            height: 75px;
+            width: 75px;
+            background-color: aquamarine;
+        }
+        @media screen and (max-width:300px) {
+            .boxe2{
+                height: 150px;
+                width: 150px;
+                background-color: blueviolet;
+            }
+            
+        }
+        
+    </style>
+  
+    <title>media queries</title>
+</head>
+<body>
+    <div class="boxe">box</div>
+    <div class="boxe2">box2</div>
+</body>
+</html>
